@@ -1,5 +1,5 @@
 {
-  "name": "dota-js",
+  "name": "dan-game-stack",
   "module": "index.ts",
   "type": "module",
   "scripts": {
