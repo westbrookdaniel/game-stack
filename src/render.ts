@@ -6,24 +6,24 @@ PIXI.settings.ROUND_PIXELS = true;
 
 export const SCALE = 3;
 
-type RenderEntities = Map<string, PIXI.Sprite>;
+export type EntityData<T> = Map<string, Partial<T>>;
 
-export type System<E extends MinEntity> = (
+export type System<E extends MinEntity, T = Record<string, never>> = (
   world: World<E>,
   app: PIXI.Application,
-  re: RenderEntities,
+  data: EntityData<T>,
 ) => void;
 
 export async function render<E extends MinEntity>(
   world: World<E>,
-  systems: System<E>[],
+  systems: System<E, unknown>[],
 ) {
-  const re: RenderEntities = new Map();
+  const data: EntityData<unknown> = new Map();
 
   const app = new PIXI.Application({
     background: 0x2d3633,
   });
   document.body.appendChild<any>(app.view);
 
-  systems.forEach((system) => system(world, app, re));
+  systems.forEach((system) => system(world, app, data));
 }

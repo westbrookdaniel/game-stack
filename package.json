@@ -6,6 +6,7 @@
     "dev": "bun --watch run ./src/index.ts"
   },
   "devDependencies": {
+    "@types/matter-js": "^0.19.2",
     "bun-types": "latest"
   },
   "peerDependencies": {

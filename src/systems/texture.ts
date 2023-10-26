@@ -9,7 +9,15 @@ export interface Texture extends Physics, MinEntity {
 
 export const CELL_SIZE = 5.3;
 
-export const textureSystem: System<Texture> = async (world, app, re) => {
+export type TextureData = {
+  sprite: PIXI.TilingSprite;
+};
+
+export const textureSystem: System<Texture, TextureData> = async (
+  world,
+  app,
+  data,
+) => {
   for (const entity of world.query("texture", "position", "size")) {
     const texture = await PIXI.Assets.load(entity.texture!);
 
@@ -20,7 +28,10 @@ export const textureSystem: System<Texture> = async (world, app, re) => {
     sprite.width = entity.size.width * SCALE * CELL_SIZE;
     sprite.height = entity.size.height * SCALE * CELL_SIZE;
 
-    re.set(entity.id, sprite);
+    const d = data.get(entity.id);
+    if (d) d.sprite = sprite;
+    else data.set(entity.id, { sprite });
+
     app.stage.addChild<any>(sprite);
   }
 };

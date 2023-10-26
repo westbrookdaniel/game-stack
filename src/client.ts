@@ -51,8 +51,8 @@ world.add({
   size: { width: 1, height: 1 },
   position: { x: 30, y: 30 },
   velocity: { x: 0, y: 0 },
-  friction: 0.8,
-  controls: { velocity: 0.2, max: 3 },
+  friction: 0.1,
+  controls: { velocity: 1, max: 2 },
 });
 
 render(world, [textureSystem, physicsSystem, controlsSystem]);
