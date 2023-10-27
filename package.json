@@ -3,7 +3,7 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "dev": "bun --watch run ./src/index.ts"
+    "dev": "bun --hot run ./src/index.ts"
   },
   "devDependencies": {
     "@types/matter-js": "^0.19.2",

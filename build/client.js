@@ -25,7 +25,7 @@ var __export = (target, all) => {
     });
 };
 
-// node_modules/eventemitter3/index.js
+// node_modules/@pixi/ticker/lib/Ticke
 var require_eventemitter3 = __commonJS((exports, module) => {
   var Events = function() {
   };
@@ -204,7 +204,7 @@ var require_eventemitter3 = __commonJS((exports, module) => {
   }
 });
 
-// node_modules/earcut/src/earcut.js
+// node_modules/@pixi/ticker/lib/Tic
 var require_earcut = __commonJS((exports, module) => {
   var earcut = function(data, holeIndices, dim) {
     dim = dim || 2;
@@ -662,7 +662,7 @@ var require_earcut = __commonJS((exports, module) => {
   };
 });
 
-// node_modules/matter-js/build/matter.js
+// node_modules/@pixi/ticker/lib/TickerLi
 var require_matter = __commonJS((exports, module) => {
   /*!
    * matter-js 0.19.0 by @liabru
@@ -5293,7 +5293,7 @@ var require_matter = __commonJS((exports, module) => {
   });
 });
 
-// src/ecs.ts
+// node_modul
 class World {
   entities = [];
   subscribers = [];
@@ -5318,7 +5318,7 @@ class World {
   }
 }
 
-// node_modules/@pixi/constants/lib/index.mjs
+// node_modules/@pixi/ticker/lib/TickerListen
 var ENV = ((ENV2) => (ENV2[ENV2.WEBGL_LEGACY = 0] = "WEBGL_LEGACY", ENV2[ENV2.WEBGL = 1] = "WEBGL", ENV2[ENV2.WEBGL2 = 2] = "WEBGL2", ENV2))(ENV || {});
 var RENDERER_TYPE = ((RENDERER_TYPE2) => (RENDERER_TYPE2[RENDERER_TYPE2.UNKNOWN = 0] = "UNKNOWN", RENDERER_TYPE2[RENDERER_TYPE2.WEBGL = 1] = "WEBGL", RENDERER_TYPE2[RENDERER_TYPE2.CANVAS = 2] = "CANVAS", RENDERER_TYPE2))(RENDERER_TYPE || {});
 var BUFFER_BITS = ((BUFFER_BITS2) => (BUFFER_BITS2[BUFFER_BITS2.COLOR = 16384] = "COLOR", BUFFER_BITS2[BUFFER_BITS2.DEPTH = 256] = "DEPTH", BUFFER_BITS2[BUFFER_BITS2.STENCIL = 1024] = "STENCIL", BUFFER_BITS2))(BUFFER_BITS || {});
@@ -5339,7 +5339,7 @@ var MASK_TYPES = ((MASK_TYPES2) => (MASK_TYPES2[MASK_TYPES2.NONE = 0] = "NONE", 
 var MSAA_QUALITY = ((MSAA_QUALITY2) => (MSAA_QUALITY2[MSAA_QUALITY2.NONE = 0] = "NONE", MSAA_QUALITY2[MSAA_QUALITY2.LOW = 2] = "LOW", MSAA_QUALITY2[MSAA_QUALITY2.MEDIUM = 4] = "MEDIUM", MSAA_QUALITY2[MSAA_QUALITY2.HIGH = 8] = "HIGH", MSAA_QUALITY2))(MSAA_QUALITY || {});
 var BUFFER_TYPE = ((BUFFER_TYPE2) => (BUFFER_TYPE2[BUFFER_TYPE2.ELEMENT_ARRAY_BUFFER = 34963] = "ELEMENT_ARRAY_BUFFER", BUFFER_TYPE2[BUFFER_TYPE2.ARRAY_BUFFER = 34962] = "ARRAY_BUFFER", BUFFER_TYPE2[BUFFER_TYPE2.UNIFORM_BUFFER = 35345] = "UNIFORM_BUFFER", BUFFER_TYPE2))(BUFFER_TYPE || {});
 
-// node_modules/@pixi/settings/lib/adapter.mjs
+// node_modules/@pixi/ticker/lib/TickerListene
 var BrowserAdapter = {
   createCanvas: (width, height) => {
     const canvas = document.createElement("canvas");
@@ -5354,7 +5354,7 @@ var BrowserAdapter = {
   parseXML: (xml) => new DOMParser().parseFromString(xml, "text/xml")
 };
 
-// node_modules/@pixi/settings/lib/settings.mjs
+// node_modules/@pixi/ticker/lib/TickerListener
 var settings = {
   ADAPTER: BrowserAdapter,
   RESOLUTION: 1,
@@ -5461,7 +5461,7 @@ function isMobile(param) {
 var isMobileCall = isMobile.default ?? isMobile;
 var isMobile3 = isMobileCall(globalThis.navigator);
 
-// node_modules/@pixi/utils/lib/index.mjs
+// node_modules/@pixi/ticker/lib/TickerLi
 var exports_lib = {};
 __export(exports_lib, {
   url: () => {
@@ -5671,11 +5671,11 @@ __export(exports_lib, {
   }
 });
 
-// node_modules/@pixi/utils/lib/settings.mjs
+// node_modules/@pixi/ticker/lib/TickerListe
 settings.RETINA_PREFIX = /@([0-9\.]+)x/;
 settings.FAIL_IF_MAJOR_PERFORMANCE_CAVEAT = false;
 
-// node_modules/@pixi/utils/lib/index.mjs
+// node_modules/@pixi/ticker/lib/TickerLi
 var import_eventemitter3 = __toESM(require_eventemitter3(), 1);
 var import_earcut = __toESM(require_earcut(), 1);
 
@@ -5893,7 +5893,7 @@ var V;
 var W;
 F && (V = F("pathToFileURL"), W = F("fileURLToPath"));
 
-// node_modules/@pixi/utils/lib/logging/deprecation.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mjstem.
 var deprecation = function(version, message, ignoreDepth = 3) {
   if (warnings[message])
     return;
@@ -5907,7 +5907,7 @@ Deprecated since v${version}`), console.warn(stack))), warnings[message] = true;
 };
 var warnings = {};
 
-// node_modules/@pixi/utils/lib/url.mjs
+// node_modules/@pixi/ticker/lib/Ticker
 var url = {
   get parse() {
     return deprecation("7.3.0", "utils.url.parse is deprecated, use native URL API instead."), L;
@@ -5920,7 +5920,7 @@ var url = {
   }
 };
 
-// node_modules/@pixi/utils/lib/path.mjs
+// node_modules/@pixi/ticker/lib/TickerL
 var assertPath = function(path2) {
   if (typeof path2 != "string")
     throw new TypeError(`Path must be a string. Received ${JSON.stringify(path2)}`);
@@ -6152,7 +6152,7 @@ async function detectVideoAlphaMode() {
 }
 var promise;
 
-// node_modules/@pixi/utils/lib/browser/hello.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.m
 var skipHello = function() {
   deprecation("7.0.0", "skipHello is deprecated, please use settings.RENDER_OPTIONS.hello");
 };
@@ -6185,7 +6185,7 @@ var isWebGLSupported = function() {
 };
 var supported;
 
-// node_modules/@pixi/colord/index.mjs
+// node_modules/@pixi/ticker/lib/Ticke
 var r = { grad: 0.9, turn: 360, rad: 360 / (2 * Math.PI) };
 var t = function(r2) {
   return typeof r2 == "string" ? r2.length > 0 : typeof r2 == "number";
@@ -6353,7 +6353,7 @@ var k2 = function(r2) {
   });
 };
 
-// node_modules/@pixi/colord/plugins/names.mjs
+// node_modules/@pixi/ticker/lib/TickerListene
 function names_default(e2, f2) {
   var a2 = { white: "#ffffff", bisque: "#ffe4c4", blue: "#0000ff", cadetblue: "#5f9ea0", chartreuse: "#7fff00", chocolate: "#d2691e", coral: "#ff7f50", antiquewhite: "#faebd7", aqua: "#00ffff", azure: "#f0ffff", whitesmoke: "#f5f5f5", papayawhip: "#ffefd5", plum: "#dda0dd", blanchedalmond: "#ffebcd", black: "#000000", gold: "#ffd700", goldenrod: "#daa520", gainsboro: "#dcdcdc", cornsilk: "#fff8dc", cornflowerblue: "#6495ed", burlywood: "#deb887", aquamarine: "#7fffd4", beige: "#f5f5dc", crimson: "#dc143c", cyan: "#00ffff", darkblue: "#00008b", darkcyan: "#008b8b", darkgoldenrod: "#b8860b", darkkhaki: "#bdb76b", darkgray: "#a9a9a9", darkgreen: "#006400", darkgrey: "#a9a9a9", peachpuff: "#ffdab9", darkmagenta: "#8b008b", darkred: "#8b0000", darkorchid: "#9932cc", darkorange: "#ff8c00", darkslateblue: "#483d8b", gray: "#808080", darkslategray: "#2f4f4f", darkslategrey: "#2f4f4f", deeppink: "#ff1493", deepskyblue: "#00bfff", wheat: "#f5deb3", firebrick: "#b22222", floralwhite: "#fffaf0", ghostwhite: "#f8f8ff", darkviolet: "#9400d3", magenta: "#ff00ff", green: "#008000", dodgerblue: "#1e90ff", grey: "#808080", honeydew: "#f0fff0", hotpink: "#ff69b4", blueviolet: "#8a2be2", forestgreen: "#228b22", lawngreen: "#7cfc00", indianred: "#cd5c5c", indigo: "#4b0082", fuchsia: "#ff00ff", brown: "#a52a2a", maroon: "#800000", mediumblue: "#0000cd", lightcoral: "#f08080", darkturquoise: "#00ced1", lightcyan: "#e0ffff", ivory: "#fffff0", lightyellow: "#ffffe0", lightsalmon: "#ffa07a", lightseagreen: "#20b2aa", linen: "#faf0e6", mediumaquamarine: "#66cdaa", lemonchiffon: "#fffacd", lime: "#00ff00", khaki: "#f0e68c", mediumseagreen: "#3cb371", limegreen: "#32cd32", mediumspringgreen: "#00fa9a", lightskyblue: "#87cefa", lightblue: "#add8e6", midnightblue: "#191970", lightpink: "#ffb6c1", mistyrose: "#ffe4e1", moccasin: "#ffe4b5", mintcream: "#f5fffa", lightslategray: "#778899", lightslategrey: "#778899", navajowhite: "#ffdead", navy: "#000080", mediumvioletred: "#c71585", powderblue: "#b0e0e6", palegoldenrod: "#eee8aa", oldlace: "#fdf5e6", paleturquoise: "#afeeee", mediumturquoise: "#48d1cc", mediumorchid: "#ba55d3", rebeccapurple: "#663399", lightsteelblue: "#b0c4de", mediumslateblue: "#7b68ee", thistle: "#d8bfd8", tan: "#d2b48c", orchid: "#da70d6", mediumpurple: "#9370db", purple: "#800080", pink: "#ffc0cb", skyblue: "#87ceeb", springgreen: "#00ff7f", palegreen: "#98fb98", red: "#ff0000", yellow: "#ffff00", slateblue: "#6a5acd", lavenderblush: "#fff0f5", peru: "#cd853f", palevioletred: "#db7093", violet: "#ee82ee", teal: "#008080", slategray: "#708090", slategrey: "#708090", aliceblue: "#f0f8ff", darkseagreen: "#8fbc8f", darkolivegreen: "#556b2f", greenyellow: "#adff2f", seagreen: "#2e8b57", seashell: "#fff5ee", tomato: "#ff6347", silver: "#c0c0c0", sienna: "#a0522d", lavender: "#e6e6fa", lightgreen: "#90ee90", orange: "#ffa500", orangered: "#ff4500", steelblue: "#4682b4", royalblue: "#4169e1", turquoise: "#40e0d0", yellowgreen: "#9acd32", salmon: "#fa8072", saddlebrown: "#8b4513", sandybrown: "#f4a460", rosybrown: "#bc8f8f", darksalmon: "#e9967a", lightgoldenrodyellow: "#fafad2", snow: "#fffafa", lightgrey: "#d3d3d3", lightgray: "#d3d3d3", dimgray: "#696969", dimgrey: "#696969", olivedrab: "#6b8e23", olive: "#808000" }, r2 = {};
   for (var d2 in a2)
@@ -6532,7 +6532,7 @@ var _Color = class _Color2 {
 _Color.shared = new _Color, _Color.temp = new _Color, _Color.HEX_PATTERN = /^(#|0x)?(([a-f0-9]{3}){1,2}([a-f0-9]{2})?)$/i;
 var Color = _Color;
 
-// node_modules/@pixi/utils/lib/color/hex.mjs
+// node_modules/@pixi/ticker/lib/TickerListen
 var hex2rgb = function(hex, out = []) {
   return deprecation("7.2.0", "utils.hex2rgb is deprecated, use Color#toRgbArray instead"), Color.shared.setValue(hex).toRgbArray(out);
 };
@@ -6546,7 +6546,7 @@ var rgb2hex = function(rgb) {
   return deprecation("7.2.0", "utils.rgb2hex is deprecated, use Color#toNumber instead"), Color.shared.setValue(rgb).toNumber();
 };
 
-// node_modules/@pixi/utils/lib/color/premultiply.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mjste
 var mapPremultipliedBlendModes = function() {
   const pm = [], npm = [];
   for (let i2 = 0;i2 < 32; i2++)
@@ -6569,7 +6569,7 @@ var premultiplyTintToRgba = function(tint, alpha, out, premultiply = true) {
 };
 var premultiplyBlendMode = mapPremultipliedBlendModes();
 
-// node_modules/@pixi/utils/lib/const.mjs
+// node_modules/@pixi/ticker/lib/TickerLi
 var DATA_URI = /^\s*data:(?:([\w-]+)\/([\w+.-]+))?(?:;charset=([\w-]+))?(?:;(base64))?,(.*)/i;
 
 // node_modules/@pixi/utils/lib/data/createIndicesForQuads.mjs
@@ -6615,7 +6615,7 @@ var interleaveTypedArrays = function(arrays, sizes) {
 };
 var map = { Float32Array, Uint32Array, Int32Array, Uint8Array };
 
-// node_modules/@pixi/utils/lib/data/pow2.mjs
+// node_modules/@pixi/ticker/lib/TickerListen
 var nextPow2 = function(v2) {
   return v2 += v2 === 0 ? 1 : 0, --v2, v2 |= v2 >>> 1, v2 |= v2 >>> 2, v2 |= v2 >>> 4, v2 |= v2 >>> 8, v2 |= v2 >>> 16, v2 + 1;
 };
@@ -6642,12 +6642,12 @@ var removeItems = function(arr, startIdx, removeCount) {
   arr.length = len;
 };
 
-// node_modules/@pixi/utils/lib/data/sign.mjs
+// node_modules/@pixi/ticker/lib/TickerListen
 var sign = function(n2) {
   return n2 === 0 ? 0 : n2 < 0 ? -1 : 1;
 };
 
-// node_modules/@pixi/utils/lib/data/uid.mjs
+// node_modules/@pixi/ticker/lib/TickerListe
 var uid = function() {
   return ++nextUid;
 };
@@ -6671,7 +6671,7 @@ var _BoundingBox = class {
 _BoundingBox.EMPTY = new _BoundingBox(0, 0, 0, 0);
 var BoundingBox = _BoundingBox;
 
-// node_modules/@pixi/utils/lib/media/caches.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.
 var destroyTextureCache = function() {
   let key;
   for (key in TextureCache)
@@ -6804,7 +6804,7 @@ var getResolutionOfUrl = function(url2, defaultValue = 1) {
   return resolution ? parseFloat(resolution[1]) : defaultValue;
 };
 
-// node_modules/@pixi/extensions/lib/index.mjs
+// node_modules/@pixi/ticker/lib/TickerListene
 var ExtensionType = ((ExtensionType2) => (ExtensionType2.Renderer = "renderer", ExtensionType2.Application = "application", ExtensionType2.RendererSystem = "renderer-webgl-system", ExtensionType2.RendererPlugin = "renderer-webgl-plugin", ExtensionType2.CanvasRendererSystem = "renderer-canvas-system", ExtensionType2.CanvasRendererPlugin = "renderer-canvas-plugin", ExtensionType2.Asset = "asset", ExtensionType2.LoadParser = "load-parser", ExtensionType2.ResolveParser = "resolve-parser", ExtensionType2.CacheParser = "cache-parser", ExtensionType2.DetectionParser = "detection-parser", ExtensionType2))(ExtensionType || {});
 var normalizeExtension = (ext) => {
   if (typeof ext == "function" || typeof ext == "object" && ext.extension) {
@@ -7466,7 +7466,7 @@ class BatchGeometry extends Geometry {
   }
 }
 
-// node_modules/@pixi/math/lib/const.mjs
+// node_modules/@pixi/ticker/lib/TickerL
 var PI_2 = Math.PI * 2;
 var RAD_TO_DEG = 180 / Math.PI;
 var DEG_TO_RAD = Math.PI / 180;
@@ -8697,7 +8697,7 @@ class ObjectRenderer {
   }
 }
 
-// node_modules/@pixi/core/lib/batch/texture.frag.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mjste
 var defaultFragment2 = `varying vec2 vTextureCoord;
 varying vec4 vColor;
 varying float vTextureId;
@@ -8710,7 +8710,7 @@ void main(void){
 }
 `;
 
-// node_modules/@pixi/core/lib/batch/texture.vert.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mjste
 var defaultVertex2 = `precision highp float;
 attribute vec2 aVertexPosition;
 attribute vec2 aTextureCoord;
@@ -11452,7 +11452,7 @@ ViewSystem.defaultOptions = {
 };
 extensions.add(ViewSystem);
 
-// node_modules/@pixi/core/lib/settings.mjs
+// node_modules/@pixi/ticker/lib/TickerList
 settings.PREFER_ENV = ENV.WEBGL2;
 settings.STRICT_TEXTURE_CACHE = false;
 settings.RENDER_OPTIONS = {
@@ -11575,7 +11575,7 @@ Object.defineProperties(settings, {
     }
   }
 });
-// node_modules/@pixi/ticker/lib/const.mjs
+// node_modules/@pixi/ticker/lib/TickerLis
 var UPDATE_PRIORITY = ((UPDATE_PRIORITY2) => (UPDATE_PRIORITY2[UPDATE_PRIORITY2.INTERACTION = 50] = "INTERACTION", UPDATE_PRIORITY2[UPDATE_PRIORITY2.HIGH = 25] = "HIGH", UPDATE_PRIORITY2[UPDATE_PRIORITY2.NORMAL = 0] = "NORMAL", UPDATE_PRIORITY2[UPDATE_PRIORITY2.LOW = -25] = "LOW", UPDATE_PRIORITY2[UPDATE_PRIORITY2.UTILITY = -50] = "UTILITY", UPDATE_PRIORITY2))(UPDATE_PRIORITY || {});
 
 // node_modules/@pixi/ticker/lib/TickerListener.mjs
@@ -11726,7 +11726,7 @@ var _Ticker = class _Ticker2 {
 _Ticker.targetFPMS = 0.06;
 var Ticker = _Ticker;
 
-// node_modules/@pixi/ticker/lib/settings.mjs
+// node_modules/@pixi/ticker/lib/TickerListen
 Object.defineProperties(settings, {
   TARGET_FPMS: {
     get() {
@@ -11776,7 +11776,7 @@ var autoDetectRenderer = function(options) {
 var renderers = [];
 extensions.handleByList(ExtensionType.Renderer, renderers);
 
-// node_modules/@pixi/core/lib/fragments/default.vert.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mjstem.mj
 var $defaultVertex = `attribute vec2 aVertexPosition;
 attribute vec2 aTextureCoord;
 
@@ -11819,7 +11819,7 @@ void main(void)
 }
 `;
 
-// node_modules/@pixi/core/lib/fragments/index.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mj
 var defaultVertex4 = $defaultVertex;
 var defaultFilterVertex = $defaultFilterVertex;
 
@@ -12410,7 +12410,7 @@ _VideoResource.TYPES = ["mp4", "m4v", "webm", "ogg", "ogv", "h264", "avi", "mov"
 };
 var VideoResource = _VideoResource;
 
-// node_modules/@pixi/core/lib/textures/resources/index.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mjstem.mjse
 INSTALLED.push(ImageBitmapResource, ImageResource, CanvasResource, VideoResource, SVGResource, BufferResource, CubeResource, ArrayResource);
 
 // node_modules/@pixi/display/lib/Bounds.mjs
@@ -12843,7 +12843,7 @@ _Container.defaultSortableChildren = false;
 var Container = _Container;
 Container.prototype.containerUpdateTransform = Container.prototype.updateTransform;
 
-// node_modules/@pixi/display/lib/settings.mjs
+// node_modules/@pixi/ticker/lib/TickerListene
 Object.defineProperties(settings, {
   SORTABLE_CHILDREN: {
     get() {
@@ -12965,7 +12965,7 @@ class Sprite extends Container {
   }
 }
 
-// node_modules/@pixi/mixin-cache-as-bitmap/lib/index.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mjstem.mj
 var _tempMatrix = new Matrix;
 DisplayObject.prototype._cacheAsBitmap = false;
 DisplayObject.prototype._cacheData = null;
@@ -13068,7 +13068,7 @@ DisplayObject.prototype._cacheAsBitmapDestroy = function(options) {
   this.cacheAsBitmap = false, this.destroy(options);
 };
 
-// node_modules/@pixi/mixin-get-child-by-name/lib/index.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mjstem.mjse
 DisplayObject.prototype.name = null;
 Container.prototype.getChildByName = function(name, deep) {
   for (let i2 = 0, j2 = this.children.length;i2 < j2; i2++)
@@ -13086,12 +13086,12 @@ Container.prototype.getChildByName = function(name, deep) {
   return null;
 };
 
-// node_modules/@pixi/mixin-get-global-position/lib/index.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mjstem.mjsers
 DisplayObject.prototype.getGlobalPosition = function(point = new Point, skipUpdate = false) {
   return this.parent ? this.parent.toGlobal(this.position, point, skipUpdate) : (point.x = this.position.x, point.y = this.position.y), point;
 };
 
-// node_modules/@pixi/filter-alpha/lib/alpha.frag.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mjste
 var fragment2 = `varying vec2 vTextureCoord;
 
 uniform sampler2D uSampler;
@@ -13898,7 +13898,7 @@ class ColorMatrixFilter extends Filter {
 }
 ColorMatrixFilter.prototype.grayscale = ColorMatrixFilter.prototype.greyscale;
 
-// node_modules/@pixi/filter-displacement/lib/displacement.frag.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mjstem.mjsers.mjson
 var fragment4 = `varying vec2 vFilterCoord;
 varying vec2 vTextureCoord;
 
@@ -13921,7 +13921,7 @@ void main(void)
 }
 `;
 
-// node_modules/@pixi/filter-displacement/lib/displacement.vert.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mjstem.mjsers.mjson
 var vertex2 = `attribute vec2 aVertexPosition;
 
 uniform mat3 projectionMatrix;
@@ -13977,7 +13977,7 @@ class DisplacementFilter extends Filter {
   }
 }
 
-// node_modules/@pixi/filter-fxaa/lib/fxaa.frag.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mjs
 var fragment5 = `varying vec2 v_rgbNW;
 varying vec2 v_rgbNE;
 varying vec2 v_rgbSW;
@@ -14101,7 +14101,7 @@ void main() {
 }
 `;
 
-// node_modules/@pixi/filter-fxaa/lib/fxaa.vert.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mjs
 var vertex3 = `
 attribute vec2 aVertexPosition;
 
@@ -14153,7 +14153,7 @@ class FXAAFilter extends Filter {
   }
 }
 
-// node_modules/@pixi/filter-noise/lib/noise.frag.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mjste
 var fragment6 = `precision highp float;
 
 varying vec2 vTextureCoord;
@@ -14212,7 +14212,7 @@ class NoiseFilter extends Filter {
   }
 }
 
-// node_modules/pixi.js/lib/filters.mjs
+// node_modules/@pixi/ticker/lib/Ticker
 var filters = {
   AlphaFilter,
   BlurFilter,
@@ -16233,7 +16233,7 @@ var resolveTextureUrl = {
   })
 };
 extensions.add(resolveTextureUrl);
-// node_modules/@pixi/compressed-textures/lib/const.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mjstem.
 var INTERNAL_FORMATS = ((INTERNAL_FORMATS2) => (INTERNAL_FORMATS2[INTERNAL_FORMATS2.COMPRESSED_RGB_S3TC_DXT1_EXT = 33776] = "COMPRESSED_RGB_S3TC_DXT1_EXT", INTERNAL_FORMATS2[INTERNAL_FORMATS2.COMPRESSED_RGBA_S3TC_DXT1_EXT = 33777] = "COMPRESSED_RGBA_S3TC_DXT1_EXT", INTERNAL_FORMATS2[INTERNAL_FORMATS2.COMPRESSED_RGBA_S3TC_DXT3_EXT = 33778] = "COMPRESSED_RGBA_S3TC_DXT3_EXT", INTERNAL_FORMATS2[INTERNAL_FORMATS2.COMPRESSED_RGBA_S3TC_DXT5_EXT = 33779] = "COMPRESSED_RGBA_S3TC_DXT5_EXT", INTERNAL_FORMATS2[INTERNAL_FORMATS2.COMPRESSED_SRGB_ALPHA_S3TC_DXT1_EXT = 35917] = "COMPRESSED_SRGB_ALPHA_S3TC_DXT1_EXT", INTERNAL_FORMATS2[INTERNAL_FORMATS2.COMPRESSED_SRGB_ALPHA_S3TC_DXT3_EXT = 35918] = "COMPRESSED_SRGB_ALPHA_S3TC_DXT3_EXT", INTERNAL_FORMATS2[INTERNAL_FORMATS2.COMPRESSED_SRGB_ALPHA_S3TC_DXT5_EXT = 35919] = "COMPRESSED_SRGB_ALPHA_S3TC_DXT5_EXT", INTERNAL_FORMATS2[INTERNAL_FORMATS2.COMPRESSED_SRGB_S3TC_DXT1_EXT = 35916] = "COMPRESSED_SRGB_S3TC_DXT1_EXT", INTERNAL_FORMATS2[INTERNAL_FORMATS2.COMPRESSED_R11_EAC = 37488] = "COMPRESSED_R11_EAC", INTERNAL_FORMATS2[INTERNAL_FORMATS2.COMPRESSED_SIGNED_R11_EAC = 37489] = "COMPRESSED_SIGNED_R11_EAC", INTERNAL_FORMATS2[INTERNAL_FORMATS2.COMPRESSED_RG11_EAC = 37490] = "COMPRESSED_RG11_EAC", INTERNAL_FORMATS2[INTERNAL_FORMATS2.COMPRESSED_SIGNED_RG11_EAC = 37491] = "COMPRESSED_SIGNED_RG11_EAC", INTERNAL_FORMATS2[INTERNAL_FORMATS2.COMPRESSED_RGB8_ETC2 = 37492] = "COMPRESSED_RGB8_ETC2", INTERNAL_FORMATS2[INTERNAL_FORMATS2.COMPRESSED_RGBA8_ETC2_EAC = 37496] = "COMPRESSED_RGBA8_ETC2_EAC", INTERNAL_FORMATS2[INTERNAL_FORMATS2.COMPRESSED_SRGB8_ETC2 = 37493] = "COMPRESSED_SRGB8_ETC2", INTERNAL_FORMATS2[INTERNAL_FORMATS2.COMPRESSED_SRGB8_ALPHA8_ETC2_EAC = 37497] = "COMPRESSED_SRGB8_ALPHA8_ETC2_EAC", INTERNAL_FORMATS2[INTERNAL_FORMATS2.COMPRESSED_RGB8_PUNCHTHROUGH_ALPHA1_ETC2 = 37494] = "COMPRESSED_RGB8_PUNCHTHROUGH_ALPHA1_ETC2", INTERNAL_FORMATS2[INTERNAL_FORMATS2.COMPRESSED_SRGB8_PUNCHTHROUGH_ALPHA1_ETC2 = 37495] = "COMPRESSED_SRGB8_PUNCHTHROUGH_ALPHA1_ETC2", INTERNAL_FORMATS2[INTERNAL_FORMATS2.COMPRESSED_RGB_PVRTC_4BPPV1_IMG = 35840] = "COMPRESSED_RGB_PVRTC_4BPPV1_IMG", INTERNAL_FORMATS2[INTERNAL_FORMATS2.COMPRESSED_RGBA_PVRTC_4BPPV1_IMG = 35842] = "COMPRESSED_RGBA_PVRTC_4BPPV1_IMG", INTERNAL_FORMATS2[INTERNAL_FORMATS2.COMPRESSED_RGB_PVRTC_2BPPV1_IMG = 35841] = "COMPRESSED_RGB_PVRTC_2BPPV1_IMG", INTERNAL_FORMATS2[INTERNAL_FORMATS2.COMPRESSED_RGBA_PVRTC_2BPPV1_IMG = 35843] = "COMPRESSED_RGBA_PVRTC_2BPPV1_IMG", INTERNAL_FORMATS2[INTERNAL_FORMATS2.COMPRESSED_RGB_ETC1_WEBGL = 36196] = "COMPRESSED_RGB_ETC1_WEBGL", INTERNAL_FORMATS2[INTERNAL_FORMATS2.COMPRESSED_RGB_ATC_WEBGL = 35986] = "COMPRESSED_RGB_ATC_WEBGL", INTERNAL_FORMATS2[INTERNAL_FORMATS2.COMPRESSED_RGBA_ATC_EXPLICIT_ALPHA_WEBGL = 35986] = "COMPRESSED_RGBA_ATC_EXPLICIT_ALPHA_WEBGL", INTERNAL_FORMATS2[INTERNAL_FORMATS2.COMPRESSED_RGBA_ATC_INTERPOLATED_ALPHA_WEBGL = 34798] = "COMPRESSED_RGBA_ATC_INTERPOLATED_ALPHA_WEBGL", INTERNAL_FORMATS2[INTERNAL_FORMATS2.COMPRESSED_RGBA_ASTC_4x4_KHR = 37808] = "COMPRESSED_RGBA_ASTC_4x4_KHR", INTERNAL_FORMATS2))(INTERNAL_FORMATS || {});
 var INTERNAL_FORMAT_TO_BYTES_PER_PIXEL = {
   33776: 0.5,
@@ -16933,7 +16933,7 @@ var buildRoundedRectangle = {
   }
 };
 
-// node_modules/@pixi/graphics/lib/const.mjs
+// node_modules/@pixi/ticker/lib/TickerListe
 var LINE_JOIN = ((LINE_JOIN2) => (LINE_JOIN2.MITER = "miter", LINE_JOIN2.BEVEL = "bevel", LINE_JOIN2.ROUND = "round", LINE_JOIN2))(LINE_JOIN || {});
 var LINE_CAP = ((LINE_CAP2) => (LINE_CAP2.BUTT = "butt", LINE_CAP2.ROUND = "round", LINE_CAP2.SQUARE = "square", LINE_CAP2))(LINE_CAP || {});
 var curves = {
@@ -17130,7 +17130,7 @@ class QuadraticUtils {
   }
 }
 
-// node_modules/@pixi/graphics/lib/utils/index.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mj
 var FILL_COMMANDS = {
   [SHAPES.POLY]: buildPoly,
   [SHAPES.CIRC]: buildCircle,
@@ -17793,7 +17793,7 @@ class MeshGeometry extends Geometry {
   }
 }
 
-// node_modules/@pixi/mesh/lib/shader/mesh.frag.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mjs
 var fragment7 = `varying vec2 vTextureCoord;
 uniform vec4 uColor;
 
@@ -17805,7 +17805,7 @@ void main(void)
 }
 `;
 
-// node_modules/@pixi/mesh/lib/shader/mesh.vert.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mjs
 var vertex4 = `attribute vec2 aVertexPosition;
 attribute vec2 aTextureCoord;
 
@@ -17930,7 +17930,7 @@ class ParticleBuffer {
   }
 }
 
-// node_modules/@pixi/particle-container/lib/particles.frag.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mjstem.mjsers.m
 var fragment8 = `varying vec2 vTextureCoord;
 varying vec4 vColor;
 
@@ -17941,7 +17941,7 @@ void main(void){
     gl_FragColor = color;
 }`;
 
-// node_modules/@pixi/particle-container/lib/particles.vert.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mjstem.mjsers.m
 var vertex5 = `attribute vec2 aVertexPosition;
 attribute vec2 aTextureCoord;
 attribute vec4 aColor;
@@ -18078,7 +18078,7 @@ ParticleRenderer.extension = {
   type: ExtensionType.RendererPlugin
 };
 extensions.add(ParticleRenderer);
-// node_modules/@pixi/text/lib/const.mjs
+// node_modules/@pixi/ticker/lib/TickerL
 var TEXT_GRADIENT = ((TEXT_GRADIENT2) => (TEXT_GRADIENT2[TEXT_GRADIENT2.LINEAR_VERTICAL = 0] = "LINEAR_VERTICAL", TEXT_GRADIENT2[TEXT_GRADIENT2.LINEAR_HORIZONTAL = 1] = "LINEAR_HORIZONTAL", TEXT_GRADIENT2))(TEXT_GRADIENT || {});
 
 // node_modules/@pixi/text/lib/TextMetrics.mjs
@@ -18864,7 +18864,7 @@ var _BasePrepare = class _BasePrepare2 {
 _BasePrepare.uploadsPerFrame = 4;
 var BasePrepare = _BasePrepare;
 
-// node_modules/@pixi/prepare/lib/settings.mjs
+// node_modules/@pixi/ticker/lib/TickerListene
 Object.defineProperties(settings, {
   UPLOADS_PER_FRAME: {
     get() {
@@ -18976,7 +18976,7 @@ class TilingSprite extends Sprite {
   }
 }
 
-// node_modules/@pixi/sprite-tiling/lib/sprite-tiling.frag.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mjstem.mjsers.
 var gl2FragmentSrc = `#version 300 es
 #define SHADER_NAME Tiling-Sprite-100
 
@@ -19005,7 +19005,7 @@ void main(void)
 }
 `;
 
-// node_modules/@pixi/sprite-tiling/lib/sprite-tiling.vert.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mjstem.mjsers.
 var gl2VertexSrc = `#version 300 es
 #define SHADER_NAME Tiling-Sprite-300
 
@@ -19028,7 +19028,7 @@ void main(void)
 }
 `;
 
-// node_modules/@pixi/sprite-tiling/lib/sprite-tiling-fallback.frag.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mjstem.mjsers.mjson.mjs
 var gl1FragmentSrc = `#version 100
 #ifdef GL_EXT_shader_texture_lod
     #extension GL_EXT_shader_texture_lod : enable
@@ -19064,7 +19064,7 @@ void main(void)
 }
 `;
 
-// node_modules/@pixi/sprite-tiling/lib/sprite-tiling-fallback.vert.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mjstem.mjsers.mjson.mjs
 var gl1VertexSrc = `#version 100
 #define SHADER_NAME Tiling-Sprite-100
 
@@ -19087,7 +19087,7 @@ void main(void)
 }
 `;
 
-// node_modules/@pixi/sprite-tiling/lib/sprite-tiling-simple.frag.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mjstem.mjsers.mjson.m
 var fragmentSimpleSrc = `#version 100
 #define SHADER_NAME Tiling-Sprite-Simple-100
 
@@ -19394,7 +19394,7 @@ class XMLStringFormat {
   }
 }
 
-// node_modules/@pixi/text-bitmap/lib/formats/index.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mjstem.
 var autoDetectFormat = function(data) {
   for (let i2 = 0;i2 < formats.length; i2++)
     if (formats[i2].test(data))
@@ -19625,7 +19625,7 @@ _BitmapFont.ALPHA = [["a", "z"], ["A", "Z"], " "], _BitmapFont.NUMERIC = [["0", 
 }, _BitmapFont.available = {};
 var BitmapFont = _BitmapFont;
 
-// node_modules/@pixi/text-bitmap/lib/shader/msdf.frag.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mjstem.mjs
 var msdfFrag = `// Pixi texture info\r
 varying vec2 vTextureCoord;\r
 uniform sampler2D uSampler;\r
@@ -19666,7 +19666,7 @@ void main(void) {\r
 }\r
 `;
 
-// node_modules/@pixi/text-bitmap/lib/shader/msdf.vert.mjs
+// node_modules/@pixi/ticker/lib/TickerListener.mjstem.mjs
 var msdfVert = `// Mesh material default fragment\r
 attribute vec2 aVertexPosition;\r
 attribute vec2 aTextureCoord;\r
@@ -20260,7 +20260,7 @@ _HTMLText.defaultDestroyOptions = {
   children: false,
   baseTexture: true
 }, _HTMLText.defaultMaxWidth = 2024, _HTMLText.defaultMaxHeight = 2024, _HTMLText.defaultAutoResolution = true;
-// src/render.ts
+// node_modules/
 async function render(world, systems3) {
   const data = new Map;
   const app2 = new Application({
@@ -20273,7 +20273,7 @@ BaseTexture.defaultOptions.scaleMode = SCALE_MODES.NEAREST;
 settings.ROUND_PIXELS = true;
 var SCALE = 3;
 
-// src/systems/controls.ts
+// node_modules/@pixi/tick
 var BINDINGS;
 (function(BINDINGS2) {
   BINDINGS2[BINDINGS2["UP"] = 0] = "UP";
@@ -20334,10 +20334,10 @@ var controlsSystem = (world, app2) => {
   });
 };
 
-// src/systems/physics.ts
+// node_modules/@pixi/tic
 var import_matter_js = __toESM(require_matter(), 1);
 
-// src/systems/texture.ts
+// node_modules/@pixi/tic
 var CELL_SIZE = 5.3;
 var textureSystem = async (world, app2, data) => {
   for (const entity of world.query("texture", "position", "size")) {
@@ -20355,9 +20355,11 @@ var textureSystem = async (world, app2, data) => {
   }
 };
 
-// src/systems/physics.ts
+// node_modules/@pixi/tic
 var physicsSystem = (world, app2, data) => {
   const engine = import_matter_js.default.Engine.create();
+  const runner9 = import_matter_js.default.Runner.create();
+  import_matter_js.default.Runner.run(runner9, engine);
   const render4 = import_matter_js.default.Render.create({
     element: document.body,
     engine,
@@ -20370,13 +20372,11 @@ var physicsSystem = (world, app2, data) => {
     }
   });
   import_matter_js.default.Render.run(render4);
-  const runner9 = import_matter_js.default.Runner.create();
-  import_matter_js.default.Runner.run(runner9, engine);
   app2.ticker.add(() => {
     for (const entity of world.query("position", "size")) {
       const d2 = data.get(entity.id);
       if (!d2 || !d2.body) {
-        const newBody = import_matter_js.default.Bodies.rectangle(entity.position.x * SCALE, entity.position.y * SCALE, entity.size.width * SCALE * CELL_SIZE, entity.size.height * SCALE * CELL_SIZE);
+        const newBody = import_matter_js.default.Bodies.rectangle(entity.position.x * SCALE, entity.position.y * SCALE, entity.size.width * SCALE * CELL_SIZE * 3, entity.size.height * SCALE * CELL_SIZE * 3);
         if (entity.static)
           newBody.isStatic = entity.static;
         if (entity.friction)
@@ -20399,8 +20399,8 @@ var physicsSystem = (world, app2, data) => {
       const d2 = data.get(entity.id);
       if (!d2 || !d2.body || !d2.sprite)
         continue;
-      d2.sprite.x = d2.body.position.x;
-      d2.sprite.y = d2.body.position.y;
+      d2.sprite.x = d2.body.position.x - d2.sprite.width;
+      d2.sprite.y = d2.body.position.y - d2.sprite.height;
       entity.position.x = d2.body.position.x;
       entity.position.y = d2.body.position.y;
       if (entity.velocity) {
@@ -20411,7 +20411,7 @@ var physicsSystem = (world, app2, data) => {
   });
 };
 
-// src/client.ts
+// node_modules/
 var world = new World;
 world.add({
   id: "wall-l",
